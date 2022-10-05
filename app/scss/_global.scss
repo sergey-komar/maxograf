@@ -1,0 +1,31 @@
+html,
+body {
+	height: 100%;/*sticky footer*/
+	display: flex;/*sticky footer*/
+	flex-direction: column;/*sticky footer*/
+	margin: 0;
+	scroll-behavior: smooth;
+	font-weight: 400;
+}
+body > * {
+	flex-shrink: 0;
+	/*sticky footer*/
+  }
+.footer{
+	margin-top: auto;/*sticky footer*/
+}
+button{
+	cursor: pointer;
+}
+.container{
+	max-width: 1330px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+a{
+	color: inherit;
+}
+
+
+
