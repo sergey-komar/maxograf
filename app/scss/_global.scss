@@ -6,6 +6,9 @@ body {
 	margin: 0;
 	scroll-behavior: smooth;
 	font-weight: 400;
+	font-size: 16px;
+	font-family: 'Montserrat';
+	color: #161820;
 }
 body > * {
 	flex-shrink: 0;
@@ -25,6 +28,9 @@ button{
 }
 a{
 	color: inherit;
+}
+main{
+	overflow-x: hidden;
 }
 
 

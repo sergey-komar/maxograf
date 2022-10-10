@@ -10,231 +10,1021 @@
 
 <body>
 
-  <header class="header">
-    <div class="container">
-      <div class="header__top">
-        <div class="header__top-inner">
-          <a href="#" class="header__top-logo">
-            <img class="header__top-logo" src="./images/logo.png" alt="img">
-          </a>
-          <div class="header__top-work">
-            <div class="header__top-office">Время работы офиса:</div>
-            <div class="header__top-time">Пн-пт, с 09.00 до 18.00</div>
-          </div>
-          <div class="header__top-work">
-            <div class="header__top-master">Выезд мастера:</div>
-            <div class="header__top-date">Круглосуточно</div>
-          </div>
-          <div class="header__top-phone">
-            <img class="header__top-phone-img" src="./images/icon/phone.png" alt="img" >
-            <a href="tel:+74950014651" class="header__top-phone-link">+7(495)001-46-51</a>
-          </div>
-          <div class="header__top-email">
-            <img class="header__top-email-img" src="./images/icon/email.png" alt="img">
-            <a href="mailto:info@tahograf-msk.ru" class="header__top-email-link">info@tahograf-msk.ru</a>
-          </div>
-          <div class="header__btn">
-            <button class="header__button">заказать звонок</button>
-          </div>
+<header class="header">
+  <div class="container">
+    <div class="header__top">
+      <div class="header__top-inner">
+        <a href="#" class="header__top-logo">
+          <img class="header__top-logo" src="./images/icon/logo.svg" alt="img">
+        </a>
+        <a href="#" class="mobile-whatsapp">
+          <img src="./images/icon/mobile-whathsap.svg" alt="img">
+        </a>
+        <div class="header__top-work">
+          <div class="header__top-office">Время работы офиса:</div>
+          <div class="header__top-time">Пн-пт, с 09.00 до 18.00</div>
         </div>
+        <div class="header__top-work">
+          <div class="header__top-master">Выезд мастера:</div>
+          <div class="header__top-date">Круглосуточно</div>
+        </div>
+        <div class="header__top-phone">
+          <img class="header__top-phone-img" src="./images/icon/phone.svg" alt="img" >
+          <a href="tel:+74950014651" class="header__top-phone-link">+7(495)001-46-51</a>
+        </div>
+        <div class="header__top-email">
+          <img class="header__top-email-img" src="./images/icon/email.svg" alt="img">
+          <a href="mailto:info@tahograf-msk.ru" class="header__top-email-link">info@tahograf-msk.ru</a>
+        </div>
+        <div class="header__btn">
+          <button data-modal class="header__button">заказать звонок</button>
+        </div>
+
       </div>
-      <div class="header__bottom">
-        <nav class="menu">
-          <ul class="menu__list">
-            <li class="menu__list-item active">
-              <a href="#" class="menu__list-link active">Каталог</a>
-            </li>
-            <li class="menu__list-item">
-              <a href="#" class="menu__list-link">Услуги</a>
-            </li>
-            <li class="menu__list-item">
-              <a href="#" class="menu__list-link">О компании</a>
-            </li>
-            <li class="menu__list-item">
-              <a href="#" class="menu__list-link">Наши клиенты</a>
-            </li>
-            <li class="menu__list-item">
-              <a href="#" class="menu__list-link">Лицензии</a>
-            </li>
-            <li class="menu__list-item">
-              <a href="#" class="menu__list-link">Новости</a>
-            </li>
-             <li class="menu__list-item">
-              <a href="#" class="menu__list-link">Контакты</a>
-            </li>
-          </ul>
-        </nav>
+      <div class="nav-icon">
+        <div class="nav-icon__middle"></div>
       </div>
     </div>
-  </header>
-  
-    <main class="main">
-      <img class="test"  src="./images/car.jpg" alt="">
-    </main>
-    <footer class="footer">
-      <div class="footer__inner">
-        <div class="container">
-          <div class="footer__box">
-            <div class="footer__box-null">
-              <div class="footer__null">
-                <div class="footer__null-title">Контакты</div>
-                <a href="#" class="footer__null-phone">+7(495)001-46-51</a>
-                <p class="footer__null-address">
-                  127106, г. Москва, Алтуфьевское шоссе, д. 27а, стр. 1, офис 307
-                </p>
-                <a href="#" class="footer__null-email">info@tahograf-msk.ru</a>
-                <button class="footer__null-btn">
-                  Заказать бесплатный звонок
-                 </button>
-                 <div class="footer__capcha">
-                  <img class="footer__yandex" src="./images/yandex.jpg" alt="img">
-                  <img class="footer__capcha-img" src="./images/capcha.jpg" alt="img" >
-                 </div>
-              </div>
-            </div>
-            <div class="footer__box-info">
-              <a href="#" class="footer__logo">
-                <img class="logo" src="./images/footer-logo.png" alt="img" >
-              </a>
-              <div class="footer__info-inner">
-
-                <div class="footer__info-block">
-                  <div class="footer__info-title">География работы</div>
-                  <ul class="footer__info-list">
-                    <li class="footer__info-item">
-                      <a href="#" class="footer__info-link">Москва,Химки</a>
+    <div class="header__line"></div>
+    <div class="header__bottom">
+      <nav class="menu">
+        <ul class="menu__list">
+          <li class="menu__list-item  sub-menu" id="sub-menu">
+            <a href="#" class="menu__list-link active ">Каталог</a>
+            <ul id="mobile">
+              <div class="sub-menu__wrapper sub-active">
+                <div class="sub-menu__wrapper-left">
+                  <div class="sub-menu__block">
+                    <li>
+                      <a class="sub-menu__title" href="#">Тахографы </a>
                     </li>
-                    <li class="footer__info-item">
-                      <a href="#" class="footer__info-link">Мытищи,Балашиха</a>
+                    <li>
+                      <a class="active" href="#">Тахографы с блоком СКЗИ </a>
                     </li>
-                    <li class="footer__info-item">
-                      <a href="#" class="footer__info-link">Красногорск</a>
+                    <li>
+                      <a href="#">Тахографы ESTR </a>
                     </li>
-                    <li class="footer__info-item">
-                      <a href="#" class="footer__info-link">Зеленоград, Дмитров</a>
-                    </li>
-                    <li class="footer__info-item">
-                      <a href="#" class="footer__info-link">Лобня, Чехов</a>
-                    </li>
-                    <li class="footer__info-item">
-                      <a href="#" class="footer__info-link">Подольск, Одиноцово</a>
-                    </li>
-                    <li class="footer__info-item">
-                      <a href="#" class="footer__info-link">Люберцы, Серпухов</a>
-                    </li>
-                    <li class="footer__info-item">
-                      <a href="#" class="footer__info-link">Ногинск, Обнинск</a>
-                    </li>
-                    <li class="footer__info-item">
-                      <a href="#" class="footer__info-link">Пушкино, Домодедово</a>
-                    </li>
-                    <li class="footer__info-item">
-                      <a href="#" class="footer__info-link">Бронницы, Щелково</a>
-                    </li>
-                    <li class="footer__info-item">
-                      <a href="#" class="footer__info-link">Бронницы, Щелково</a>
-                    </li>
-                    <li class="footer__info-item">
-                      <a href="#" class="footer__info-link">Ступино</a>
-                    </li>
-                    <li class="footer__info-item">
-                      <a href="#" class="footer__info-link">Орехово-Зуево</a>
-                    </li>
-                    <li class="footer__info-item">
-                      <a href="#" class="footer__info-link">И другие города Московской области</a>
-                    </li>
-                  </ul>
-                </div>
-                <div class="footer__info-block">
-                  <div class="footer__info-block-wrapper">
-                    <div class="footer__info-title">Товары</div>
-                    <ul class="footer__info-list">
-                      <li class="footer__info-item">
-                        <a href="#" class="footer__info-link">Тахографы с блоком СКЗИ</a>
-                      </li>
-                      <li class="footer__info-item">
-                        <a href="#" class="footer__info-link">Тахографы ESTR</a>
-                      </li>
-                      <li class="footer__info-item">
-                        <a href="#" class="footer__info-link">Глонасс трекеры</a>
-                      </li>
-                      <li class="footer__info-item">
-                        <a href="#" class="footer__info-link">Карта водителя СКЗИ</a>
-                      </li>
-                    </ul>
                   </div>
-                
-                  <div class="footer__info-block-wrapper">
-                    <div class="footer__info-title">Услуги</div>
-                    <ul class="footer__info-list">
-                      <li class="footer__info-item">
-                        <a href="#" class="footer__info-link">Подключение к РНИС</a>
-                      </li>
-                      <li class="footer__info-item">
-                        <a href="#" class="footer__info-link">Установка тахографа</a>
-                      </li>
-                      <li class="footer__info-item">
-                        <a href="#" class="footer__info-link">Активация тахографа</a>
-                      </li>
-                      <li class="footer__info-item">
-                        <a href="#" class="footer__info-link">Калибровка тахографа</a>
-                      </li>
-                      <li class="footer__info-item">
-                        <a href="#" class="footer__info-link">Ремонт и обслуживание 
-                          тахографов</a>
-                      </li>
-                      <li class="footer__info-item">
-                        <a href="#" class="footer__info-link">Установка системы глонасс</a>
-                      </li>
-                      <li class="footer__info-item">
-                        <a href="#" class="footer__info-link">Установка ДУТ</a>
-                      </li>
-                      <li class="footer__info-item">
-                        <a href="#" class="footer__info-link">
-                          Комплекс по замене блока СКЗИ</a>
-                      </li>
-                      <li class="footer__info-item">
-                        <a href="#" class="footer__info-link">Активация блока СКЗИ</a>
-                      </li>
-                      <li class="footer__info-item">
-                        <a href="#" class="footer__info-link">
-                          Помощь в оформлении пропусков для грузовиков на МКАД, ТТК и СК
-                        </a>
-                      </li>
-                    </ul>
+                 
+                  <div class="sub-menu__block">
+                    <li>
+                      <a class="sub-menu__title" href="#">Глонасс мониторинг</a>
+                    </li>
+                    <li>
+                      <a href="#">Глонасс трекеры</a>
+                    </li>
+                    <li>
+                      <a href="#">Датчики уровня топлева </a>
+                    </li>
+                    <li>
+                      <a href="#">Допоборудование глонасс</a>
+                    </li>
+                    <li>
+                      <a href="#">Готовые решения глонасс </a>
+                    </li>
+                    <li>
+                      <a href="#">Демо-версия по WIALON </a>
+                    </li>
                   </div>
                 </div>
                
-                <div class="footer__info-block">
-                  <div class="footer__info-title">Разделы</div>
+                <div class="sub-menu__wrapper-right">
+                  <div class="sub-menu__block">
+                    <li>
+                      <a class="sub-menu__title" href="#">Карты водителя</a>
+                    </li>
+                    <li>
+                      <a href="#">Карта водителя СКЗИ</a>
+                    </li>
+                    <li>
+                      <a href="#">Карты ЕСТР (ESTR)</a>
+                    </li>
+                    <li>
+                      <a href="#">Карта предприятия ЕСТР</a>
+                    </li>
+                    <li>
+                      <a href="#">Карты предприятия СКЗИ </a>
+                    </li>
+                   </div>
+                   <div class="sub-menu__block">
+                    <li>
+                      <a class="sub-menu__title" href="#">Расходные материалы</a>
+                    </li>
+                    <li>
+                      <a href="#">Бумага для тахографа</a>
+                    </li>
+                    <li>
+                      <a href="#">Считыватель смарт карт</a>
+                    </li>
+                    <li>
+                      <a href="#">Короб для тахографа</a>
+                    </li>
+                    <li>
+                      <a href="#">Спидометр CAN 140MM </a>
+                    </li>
+                    <li>
+                      <a href="#">Спидометр CAN 140MM </a>
+                    </li>
+                    <li>
+                      <a href="#">Датчик скорости KITASS</a>
+                    </li>
+                    <li>
+                      <a href="#">Датчик скорости российский</a>
+                    </li>
+                   </div>
+                </div>
+             
+              </div>
+             
+             
+            </ul>
+          </li>
+          <li class="menu__list-item">
+            <a href="#" class="menu__list-link">Услуги</a>
+          </li>
+          <li class="menu__list-item">
+            <a href="#" class="menu__list-link">О компании</a>
+          </li>
+          <li class="menu__list-item">
+            <a href="#" class="menu__list-link">Наши клиенты</a>
+          </li>
+          <li class="menu__list-item">
+            <a href="#" class="menu__list-link">Лицензии</a>
+          </li>
+          <li class="menu__list-item">
+            <a href="#" class="menu__list-link">Новости</a>
+          </li>
+            <li class="menu__list-item">
+            <a href="#" class="menu__list-link">Контакты</a>
+          </li>
+        </ul>
+        <div class="header__menu-mobile">
+          <div class="header__top-work-mobile">
+            <div class="header__top-work header-mobile">
+              <div class="header__top-office">Время работы офиса:</div>
+              <div class="header__top-time">Пн-пт, с 09.00 до 18.00</div>
+            </div>
+            <div class="header__top-work header-mobile">
+              <div class="header__top-master">Выезд мастера:</div>
+              <div class="header__top-date">Круглосуточно</div>
+            </div>
+          </div>
+        
+          <div class="header__top-phone header-mobile">
+           
+            <a href="tel:+74950014651" class="header__top-phone-link header__top-phone-link-mobile">+7(495)001-46-51</a>
+          </div>
+          <div class="header__top-email header-mobile">
+          
+            <a href="mailto:info@tahograf-msk.ru" class="header__top-email-link header__top-email-link-mobile">info@tahograf-msk.ru</a>
+          </div>
+          <div class="header__btn header-mobile">
+            <button data-modal class="header__button header-mobile">заказать звонок</button>
+          </div>
+        </div>
+       
+      </nav>
+     
+    </div>
+  </div>
+</header>
+
+<main class="main">
+
+<div class="slider-top__inner">
+  <div class="slider-top">
+    <div class="container">
+     <div class="slider__row">
+      <div class="slider__row-box">
+        <div class="slider__tab">
+          <a href="#" class="slider__tab-item">Тахографы</a>
+          <a href="#" class="slider__tab-item">GPS/Глонасс</a>
+          <a href="#" class="slider__tab-item">Карты</a>
+          <a href="#" class="slider__tab-item">Услуги</a>
+        </div>
+        <h1 class="slider__title">
+          Подключение к РНИС 
+          Москвы и Московской области, 
+          оформление пропусков 
+          МКАД, ТТК, СК. 
+        </h1>
+        <p class="slider__text">
+          Подробности уточняйте у менеджера 
+          по телефону: +7(495)001-46-51
+        </p>
+        <button data-modal class="slider__btn">Заказать звонок</button>
+      </div>
+     </div>
+    </div>
+    <div class="slider__wrraper">
+      <div class="slider__wrraper-img">
+        <img src="./images/slider-top-3.jpg" alt="img">
+      </div>
+    </div>
+  </div>
+  <div class="slider-top">
+    <div class="container">
+     <div class="slider__row">
+      <div class="slider__row-box">
+        <div class="slider__tab">
+          <a href="#" class="slider__tab-item">Тахографы</a>
+          <a href="#" class="slider__tab-item">GPS/Глонасс</a>
+          <a href="#" class="slider__tab-item">Карты</a>
+          <a href="#" class="slider__tab-item">Услуги</a>
+        </div>
+        <h1 class="slider__title">
+          Подключение к РНИС 
+          Москвы и Московской области, 
+          оформление пропусков 
+          МКАД, ТТК, СК. 
+        </h1>
+        <p class="slider__text">
+          Подробности уточняйте у менеджера 
+          по телефону: +7(495)001-46-51
+        </p>
+        <button data-modal class="slider__btn">Заказать звонок</button>
+      </div>
+     </div>
+    </div>
+    <div class="slider__wrraper">
+      <div class="slider__wrraper-img">
+        <img src="./images/slider-top-2.jpg" alt="img">
+      </div>
+    </div>
+  </div>
+  <div class="slider-top">
+    <div class="container">
+     <div class="slider__row">
+      <div class="slider__row-box">
+        <div class="slider__tab">
+          <a href="#" class="slider__tab-item">Тахографы</a>
+          <a href="#" class="slider__tab-item">GPS/Глонасс</a>
+          <a href="#" class="slider__tab-item">Карты</a>
+          <a href="#" class="slider__tab-item">Услуги</a>
+        </div>
+        <h1 class="slider__title">
+          Подключение к РНИС 
+          Москвы и Московской области, 
+          оформление пропусков 
+          МКАД, ТТК, СК. 
+        </h1>
+        <p class="slider__text">
+          Подробности уточняйте у менеджера 
+          по телефону: +7(495)001-46-51
+        </p>
+        <button data-modal class="slider__btn">Заказать звонок</button>
+      </div>
+     </div>
+    </div>
+    <div class="slider__wrraper">
+      <div class="slider__wrraper-img">
+        <img src="./images/slider-top-3.jpg" alt="img">
+      </div>
+    </div>
+  </div>
+  <div class="slider-top">
+    <div class="container">
+     <div class="slider__row">
+      <div class="slider__row-box">
+        <div class="slider__tab">
+          <a href="#" class="slider__tab-item">Тахографы</a>
+          <a href="#" class="slider__tab-item">GPS/Глонасс</a>
+          <a href="#" class="slider__tab-item">Карты</a>
+          <a href="#" class="slider__tab-item">Услуги</a>
+        </div>
+        <h1 class="slider__title">
+          Подключение к РНИС 
+          Москвы и Московской области, 
+          оформление пропусков 
+          МКАД, ТТК, СК. 
+        </h1>
+        <p class="slider__text">
+          Подробности уточняйте у менеджера 
+          по телефону: +7(495)001-46-51
+        </p>
+        <button data-modal class="slider__btn">Заказать звонок</button>
+      </div>
+     </div>
+    </div>
+    <div class="slider__wrraper">
+      <div class="slider__wrraper-img">
+        <img src="./images/slider-top-2.jpg" alt="img">
+      </div>
+    </div>
+  </div>
+</div>
+
+ <div class="tachographs-company">
+  <div class="container">
+    <div class="tachographs-company__block">
+      <div class="tachographs-company__block-img">
+        <img src="./images/taxograf.jpg" alt="img">
+      </div>
+      <div class="tachographs-company__block-content">
+        <div class="tachographs-company__block-title">Тахографы</div>
+        <div class="main__contant-text">
+          <p>
+            Тахографы
+            Компания Тахограф МСК специализируется на установке тахографов на различные транспортные средства: частные (коммерческие) грузовые автомобили, автобусы и др. Предлагаем услуги по подбору модификации прибора, подходящей для конкретной марки, установке, калибровке, сервисному обслуживанию и ремонту оборудования. Наш персонал имеет многолетний опыт работы, профильное образование и соответствующие допуски. Деятельность компании ведется на основании лицензии ФСБ и внесения в перечень сведений о мастерских, с присвоением номера мастерской РФ1244.
+          </p>
+        </div>
+        <button class="button-btn"  type="button">
+          читать полностью
+        </button>
+
+        <div class="content-hidden">
+          <p>
+            Компания Тахограф МСК специализируется на установке тахографов на различные транспортные средства: частные (коммерческие) грузовые автомобили, автобусы и др. Предлагаем услуги по подбору модификации прибора, подходящей для конкретной марки, установке, калибровке, сервисному обслуживанию и ремонту оборудования. Наш персонал имеет многолетний опыт работы, профильное образование и соответствующие допуски. Деятельность компании ведется на основании лицензии ФСБ и внесения в перечень сведений о мастерских, с присвоением номера мастерской РФ1244.Компания Тахограф МСК специализируется на установке тахографов на различные транспортные средства: частные (коммерческие) грузовые автомобили, автобусы и др. Предлагаем услуги по подбору Компания Тахограф МСК специализируется на установке тахографов на различные транспортные средства: частные (коммерческие) грузовые автомобили, автобусы и др. Предлагаем услуги по подбору модификации прибора, подходящей для конкретной марки, установке, калибровке, сервисному обслуживанию и ремонту оборудования. Наш персонал имеет многолетний опыт работы, профильное образование и соответствующие допуски. Деятельность компании ведется на основании лицензии ФСБ и внесения в перечень сведений о мастерских, с присвоением номера мастерской РФ1244.Компания Тахограф МСК специализируется на установке тахографов на различные транспортные средства: частные (коммерческие) грузовые автомобили, автобусы и др. Предлагаем услуги по подбору 
+          </p>
+          <button class="content-hide_btn">скрыть</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="tachographs">
+  <div class="container">
+    <h3 class="tachographs__title">Тахографы с блоком СКЗИ</h3>
+    <div class="tachographs-slider">
+      <div class="tachographs-slider__inner">
+        <div class="tachographs-slider__wrapper">
+          <div class="tachographs-slider__item">
+            <img class="tachographs-slider__item-img" src="./images/ckzi-1.jpg" alt="img">
+            <div class="tachographs-slider__item-price">
+              44 500 <span>руб</span>
+            </div>
+            <div class="tachographs-slider__item-title">Меркурий ТА-001</div>
+            <div class="tachographs-slider__item-bottomm">
+              <div class="tachographs-slider__item-rating" data-rateyo-rating="5"></div>
+              <a href="#" class="tachographs-slider__item-basket">
+                <img src="./images/icon/basket.svg" alt="img">
+              </a>
+            </div>
+            
+          </div>
+        </div>
+       
+        <div class="tachographs-slider__wrapper">
+          <div class="tachographs-slider__item">
+            <img class="tachographs-slider__item-img" src="./images/skzi-2.png" alt="img">
+            <div class="tachographs-slider__item-price">
+              43 000 <span>руб</span>
+            </div>
+            <div class="tachographs-slider__item-title">МИКАС</div>
+            <div class="tachographs-slider__item-bottomm">
+              <div class="tachographs-slider__item-rating" data-rateyo-rating="4"></div>
+              <a href="#" class="tachographs-slider__item-basket">
+                <img src="./images/icon/basket.svg" alt="img">
+              </a>
+            </div>
+            
+          </div>
+        </div>
+       
+        <div class="tachographs-slider__wrapper">
+          <div class="tachographs-slider__item">
+            <img class="tachographs-slider__item-img" src="./images/skzi-3.png" alt="img">
+            <div class="tachographs-slider__item-price">
+              42 000 <span>руб</span>
+            </div>
+            <div class="tachographs-slider__item-title">Касби ДТ-20М</div>
+            <div class="tachographs-slider__item-bottomm">
+              <div class="tachographs-slider__item-rating" data-rateyo-rating="4"></div>
+              <a href="#" class="tachographs-slider__item-basket">
+                <img src="./images/icon/basket.svg" alt="img">
+              </a>
+            </div>
+            
+          </div>
+        </div>
+       
+        <div class="tachographs-slider__wrapper">
+          <div class="tachographs-slider__item">
+            <img class="tachographs-slider__item-img" src="./images/skzi-4.png" alt="img">
+            <div class="tachographs-slider__item-price">
+              41 000 <span>руб</span>
+            </div>
+            <div class="tachographs-slider__item-title">АТОЛ Drive 5</div>
+            <div class="tachographs-slider__item-bottomm">
+              <div class="tachographs-slider__item-rating" data-rateyo-rating="4"></div>
+              <a href="#" class="tachographs-slider__item-basket">
+                <img src="./images/icon/basket.svg" alt="img">
+              </a>
+            </div>
+            
+          </div>
+        </div>
+       
+        <div class="tachographs-slider__wrapper">
+          <div class="tachographs-slider__item">
+            <img class="tachographs-slider__item-img" src="./images/ckzi-1.jpg" alt="img">
+            <div class="tachographs-slider__item-price">
+              44 500 <span>руб</span>
+            </div>
+            <div class="tachographs-slider__item-title">АТОЛ Drive 5</div>
+            <div class="tachographs-slider__item-bottomm">
+              <div class="tachographs-slider__item-rating" data-rateyo-rating="5"></div>
+              <a href="#" class="tachographs-slider__item-basket">
+                <img src="./images/icon/basket.svg" alt="img">
+              </a>
+            </div>
+            
+          </div>
+        </div>
+       
+      </div>
+      <div class="tachographs-slider__curent">
+        <div class="tachographs-slider__curent-arrows"></div>
+      </div>
+      <h3 class="tachographs__title__bottom">Тахографы с блоком СКЗИ</h3>
+      <div class="tachographs-slider__inner-bottom">
+        <div class="tachographs-slider__wrapper-bottom">
+          <div class="tachographs-slider__item-bottom">
+            <img class="tachographs-slider__item-img-bottom" src="./images/ckzi-1.jpg" alt="img">
+            <div class="tachographs-slider__item-price-bottom">
+              44 500 <span>руб</span>
+            </div>
+            <div class="tachographs-slider__item-title-bottom">Меркурий ТА-001</div>
+            <div class="tachographs-slider__item-bottom-bottom">
+              <div class="tachographs-slider__item-rating-bottom" data-rateyo-rating="5"></div>
+              <a href="#" class="tachographs-slider__item-basket-bottom">
+                <img src="./images/icon/basket.svg" alt="img">
+              </a>
+            </div>
+            
+          </div>
+        </div>
+       
+        <div class="tachographs-slider__wrapper-bottom">
+          <div class="tachographs-slider__item-bottom">
+            <img class="tachographs-slider__item-img-bottom" src="./images/skzi-2.png" alt="img">
+            <div class="tachographs-slider__item-price-bottom">
+              43 000 <span>руб</span>
+            </div>
+            <div class="tachographs-slider__item-title-bottom">МИКАС</div>
+            <div class="tachographs-slider__item-bottom-bottom">
+              <div class="tachographs-slider__item-rating-bottom" data-rateyo-rating="4"></div>
+              <a href="#" class="tachographs-slider__item-basket-bottom">
+                <img src="./images/icon/basket.svg" alt="img">
+              </a>
+            </div>
+            
+          </div>
+        </div>
+       
+        <div class="tachographs-slider__wrapper-bottom">
+          <div class="tachographs-slider__item-bottom">
+            <img class="tachographs-slider__item-img-bottom" src="./images/skzi-3.png" alt="img">
+            <div class="tachographs-slider__item-price-bottom">
+              42 000 <span>руб</span>
+            </div>
+            <div class="tachographs-slider__item-title-bottom">Касби ДТ-20М</div>
+            <div class="tachographs-slider__item-bottom-bottom">
+              <div class="tachographs-slider__item-rating-bottom" data-rateyo-rating="4"></div>
+              <a href="#" class="tachographs-slider__item-basket-bottom">
+                <img src="./images/icon/basket.svg" alt="img">
+              </a>
+            </div>
+            
+          </div>
+        </div>
+       
+        <div class="tachographs-slider__wrapper-bottom">
+          <div class="tachographs-slider__item-bottom">
+            <img class="tachographs-slider__item-img-bottom" src="./images/skzi-4.png" alt="img">
+            <div class="tachographs-slider__item-price-bottom">
+              41 000 <span>руб</span>
+            </div>
+            <div class="tachographs-slider__item-title-bottom">АТОЛ Drive 5</div>
+            <div class="tachographs-slider__item-bottom-bottom">
+              <div class="tachographs-slider__item-rating-bottom" data-rateyo-rating="4"></div>
+              <a href="#" class="tachographs-slider__item-basket-bottom">
+                <img src="./images/icon/basket.svg" alt="img">
+              </a>
+            </div>
+            
+          </div>
+        </div>
+       
+        <div class="tachographs-slider__wrapper-bottom">
+          <div class="tachographs-slider__item-bottom">
+            <img class="tachographs-slider__item-img-bottom" src="./images/ckzi-1.jpg" alt="img">
+            <div class="tachographs-slider__item-price-bottom">
+              44 500 <span>руб</span>
+            </div>
+            <div class="tachographs-slider__item-title-bottom">АТОЛ Drive 5</div>
+            <div class="tachographs-slider__item-bottom-bottom">
+              <div class="tachographs-slider__item-rating-bottom" data-rateyo-rating="5"></div>
+              <a href="#" class="tachographs-slider__item-basket-bottom">
+                <img src="./images/icon/basket.svg" alt="img">
+              </a>
+            </div>
+            
+          </div>
+        </div>
+       
+      </div>
+      <div class="tachographs-slider__curent">
+        <div class="tachographs-slider__curent-arrows"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+ <div class="client">
+  <div class="container">
+    <div class="client__inner">
+      <h2 class="client__title">
+        Для нас клиент всегда прав.
+        Мы используем <span> индивидуальный подход</span> к каждому клиенту
+      </h2>
+      <div class="client-block">
+        <div class="client-block__top">
+          <div class="client-block__item">
+            <div class="client-block__item-img">
+              <img src="./images/icon/client-1.svg" alt="img">
+            </div>
+            <div class="client-block__item-title">
+             <span>5 ЛЕТ</span> УСПЕШНОЙ <br> РАБОТЫ
+            </div>
+          </div>
+          <div class="client-block__item">
+            <div class="client-block__item-img">
+              <img src="./images/icon/client-2.svg" alt="img">
+            </div>
+            <div class="client-block__item-title">
+              ВЫЕЗД МАСТЕРА -<span>24/7</span>- КРУГЛОСУТОЧНО
+            </div>
+          </div>
+          <div class="client-block__item">
+            <div class="client-block__item-img">
+              <img src="./images/icon/client-3.svg" alt="img">
+            </div>
+            <div class="client-block__item-title">
+              БОЛЕЕ <span>10000</span> ДОВОЛЬНЫХ КЛИЕНТОВ
+            </div>
+          </div>
+        </div>
+        <div class="client-block__bottom">
+          <div class="client-block__item">
+            <div class="client-block__item-img">
+              <img src="./images/icon/client-4.svg" alt="img">
+            </div>
+            <div class="client-block__item-title">
+             <span>ГАРАНТИЯ 3 ГОДА</span> НА ВСЕ ОБОРУДОВАНИЕ
+            </div>
+          </div>
+          <div class="client-block__item">
+            <div class="client-block__item-img">
+              <img src="./images/icon/client-5.svg" alt="img">
+            </div>
+            <div class="client-block__item-title">
+            <span>НАЛИЧИЕ ОБОРУДОВАНИЯ</span> НА СКЛАДЕ
+            </div>
+          </div>
+          <div class="client-block__item">
+            <div class="client-block__item-img">
+              <img src="./images/icon/client-6.svg" alt="img">
+            </div>
+            <div class="client-block__item-title">
+             <span>КРУГЛОСУТОЧНЫЙ МОНТАЖ</span> ОБОРУДОВАНИЯ
+            </div>
+          </div>
+          <div class="client-block__item">
+            <div class="client-block__item-img">
+              <img src="./images/icon/client-7.svg" alt="img">
+            </div>
+            <div class="client-block__item-title">
+            <span>ПОЖИЗНЕННАЯ ГАРАНТИЯ</span> НА ДАТЧИКИ ТОПЛИВА
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> 
+
+<div class="installation">
+  <div class="installation__inner">
+    <div class="container container-installation">
+      <div class="installation-box">
+        <div class="installation-box__null"></div>
+        <div class="installation-box__info">
+          <div class="installation-box__title">
+            Где <span>купить и установить</span> 
+            тахограф в Москве
+          </div>
+          <p class="installation-box__text">
+            Мы осуществляем продажу тахографов на грузовые автомобили и автобусы по низким ценам, одновременно выполняя комплекс работ по установке и настройке оборудования. Бригады выезжают на территорию клиента, что экономит ваше время и средства. Установка прибора занимает всего 1 час, а это дополнительно снижает убытки в связи с простоем автомобиля. 
+           <span> Сотрудничая с нами, вы можете быть уверены:</span>
+          </p>
+          <div class="installation-box__block">
+            <div class="installation-box__item">
+              <div class="installation-box__item-img">
+                <img src="./images/icon/instalition-1.svg" alt="img" >
+              </div>
+              <p class="installation-box__item-text">
+                в профессионализме сотрудников;
+              </p>
+            </div>
+            <div class="installation-box__item">
+              <div class="installation-box__item-img">
+                <img src="./images/icon/instalition-2.svg" alt="img" >
+              </div>
+              <p class="installation-box__item-text">
+                в качестве выполненных работ;
+              </p>
+            </div>
+            <div class="installation-box__item">
+              <div class="installation-box__item-img">
+                <img src="./images/icon/instalition-3.svg" alt="img" >
+              </div>
+              <p class="installation-box__item-text">
+                в оригинальном происхождении оборудования.
+              </p>
+            </div>
+          </div>
+          <p class="installation-box__block-text">
+            Кроме продажи и установки контролирующих устройств мы предлагаем несколько уникальных комплексных решений, которые способны решить сразу несколько задач и оптимизировать деятельность вашей компании. За подробностями обратитесь к менеджерам!
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="certificates">
+  <div class="container">
+    <h3 class="certificates__title">Сертификаты</h3>
+    <div class="certificates-slider">
+      <div class="certificates-slider__inner">
+        <div class="certificates-slider__inner-img">
+          <img src="./images/sertificate/sertificate-1.jpg" alt="img">
+        </div>
+        <div class="certificates-slider__inner-img">
+          <img src="./images/sertificate/sertificate-2.jpg" alt="img">
+        </div>
+        <div class="certificates-slider__inner-img">
+          <img src="./images/sertificate/sertificate-3.jpg" alt="img">
+        </div>
+        <div class="certificates-slider__inner-img">
+          <img src="./images/sertificate/sertificate-4.jpg" alt="img">
+        </div>
+        <div class="certificates-slider__inner-img">
+          <img src="./images/sertificate/sertificate-5.jpg" alt="img">
+        </div>
+        <div class="certificates-slider__inner-img">
+          <img src="./images/sertificate/sertificate-1.jpg" alt="img">
+        </div>
+      </div>
+      <div class="certificates-slider__curent">
+        <div class="certificates-slider__curent-arrows"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="call">
+  <div class="container">
+    <div class="call__inner">
+      <p class="call__inner-text">
+        Если вы еще размышляете, где купить тахограф на грузовой автомобиль 
+        по выгодной цене и получить квалифицированную помощь в установке – 
+      </p>
+      <div class="call__inner-title">
+        просто позвоните по телефону в Москве 
+        или свяжитесь с нами в онлайн-чате.
+      </div>
+      <div class="call__block">
+        <button data-modal class="call__block-btn">Заказать звонок</button>
+        <button class="call__block-chat">онлайн чат</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="price">
+  <div class="container">
+    <div class="price__inner">
+      <div class="price__block">
+        <div class="price__block-title">Что входит в цену?</div>
+        <p class="price__block-text">
+          В цену входит заполнение анкеты и заявления 
+          за вас нашими специалистами и подача в соответствующий орган. 
+          С вас требуется полный пакет документов указанный ниже. 
+         <span>Мы принимаем все виды оплаты.</span> 
+        </p>
+      </div>
+      <div class="price__info">
+        <div class="price__info-item">
+          <div class="price__info-img">
+            <img  src="./images/icon/price-1.svg" alt="img">
+          </div>
+          <div class="price__info-desc">
+            <div class="price__info-title">КАРТА ВОДИТЕЛЯ</div>
+            <p class="price__info-text">
+              Оперативное изготовление, цена 4600 р.
+            </p>
+          </div>
+        </div>
+        <div class="price__info-item">
+          <div class="price__info-img">
+            <img  src="./images/icon/price-2.svg" alt="img">
+          </div>
+          <div class="price__info-desc">
+            <div class="price__info-title">УСЛУГИ</div>
+            <p class="price__info-text">
+              Выезд специалистов по Москве 800 рублей.
+              За пределы МКАД по тарифу 16 рублей километр.
+            </p>
+          </div>
+        </div>
+        <div class="price__info-item">
+          <div class="price__info-img">
+            <img  src="./images/icon/price-3.svg" alt="img">
+          </div>
+          <div class="price__info-desc">
+            <div class="price__info-title">УСТАНОВКА ГЛОНАСС</div>
+            <p class="price__info-text">
+              Подключение к РНИС бесплатно.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>  
+
+<div class="reviews">
+  <div class="container">
+    <div class="reviews__title">Нам доверяют</div>
+    <div class="reviews__inner">
+      <div class="reviews__slider">
+        <div class="reviews__slider-wrraper">
+          <div class="reviews__item">
+            <div class="reviews__item-title">Владимир</div>
+            <img class="reviews__item-img" src="./images/icon/rewievs.png" alt="img" >
+            <p class="reviews__item-text">
+              Наш выбор пал на тахограф Касби - работает постоянно без отключений и даже малейших перерывов. Нас все устроило, благодарим за подробную консультацию, помощь в выборе
+            </p>
+          </div>
+        </div>
+       
+        <div class="reviews__slider-wrraper">
+          <div class="reviews__item">
+            <div class="reviews__item-title">Владимир</div>
+            <img class="reviews__item-img" src="./images/icon/rewievs.png" alt="img" >
+            <p class="reviews__item-text">
+              Наш выбор пал на тахограф Касби - работает постоянно без отключений и даже малейших перерывов. Нас все устроило, благодарим за подробную консультацию, помощь в выборе
+            </p>
+          </div>
+        </div>
+       
+        <div class="reviews__slider-wrraper">
+          <div class="reviews__item">
+            <div class="reviews__item-title">Владимир</div>
+            <img class="reviews__item-img" src="./images/icon/rewievs.png" alt="img" >
+            <p class="reviews__item-text">
+              Наш выбор пал на тахограф Касби - работает постоянно без отключений и даже малейших перерывов. Нас все устроило, благодарим за подробную консультацию, помощь в выборе
+            </p>
+          </div>
+        </div>
+        
+        <div class="reviews__slider-wrraper">
+          <div class="reviews__item">
+            <div class="reviews__item-title">Владимир</div>
+            <img class="reviews__item-img" src="./images/icon/rewievs.png" alt="img" >
+            <p class="reviews__item-text">
+              Наш выбор пал на тахограф Касби - работает постоянно без отключений и даже малейших перерывов. Нас все устроило, благодарим за подробную консультацию, помощь в выборе
+            </p>
+          </div>
+        </div>
+       
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="partners">
+  <div class="container">
+    <div class="partners__inner">
+      <div class="partners__item">
+        <img class="partners__item-img partners__item-img-mobile" src="./images/partners/partners-1.png" alt="img" >
+      </div>
+      <div class="partners__item">
+        <img class="partners__item-img" src="./images/partners/partners-2.png" alt="img" >
+      </div>
+      <div class="partners__item">
+        <img class="partners__item-img" src="./images/partners/partners-3.png" alt="img" >
+      </div>
+      <div class="partners__item">
+        <img class="partners__item-img" src="./images/partners/partners-4.png" alt="img" >
+      </div>
+      <div class="partners__item">
+        <img class="partners__item-img" src="./images/partners/partners-5.png" alt="img" >
+      </div>
+      <div class="partners__item">
+        <img class="partners__item-img" src="./images/partners/partners-6.png" alt="img" >
+      </div>
+      <div class="partners__item">
+        <img class="partners__item-img" src="./images/partners/partners-7.png" alt="img" >
+      </div>
+    </div>
+  </div>
+  </div>
+ 
+</main>
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="container container-installation">
+      <div class="footer__box">
+        <div class="footer__box-null">
+          <div class="footer__null">
+            <div class="footer__null-title">Контакты</div>
+            <a href="#" class="footer__null-phone">+7(495)001-46-51</a>
+            <p class="footer__null-address">
+              127106, г. Москва, Алтуфьевское шоссе, д. 27а, стр. 1, офис 307
+            </p>
+            <a href="#" class="footer__null-email">info@tahograf-msk.ru</a>
+            <button data-modal class="footer__null-btn">
+              Заказать бесплатный звонок
+              </button>
+              <div class="footer__capcha">
+              <img class="footer__yandex" src="./images/yandex.jpg" alt="img">
+              <img class="footer__capcha-img" src="./images/capcha.jpg" alt="img" >
+              </div>
+          </div>
+        </div>
+        <div class="footer__box-info">
+          <a href="#" class="footer__logo">
+            <img class="logo" src="./images/icon/footer-logo.svg" alt="img" >
+          </a>
+          <div class="footer__info-inner">
+
+
+            <div class="footer__inner_block__wrapper">
+              <div class="footer__info-block">
+                <div class="footer__info-title">География работы</div>
+                <ul class="footer__info-list">
+                  <li class="footer__info-item">
+                    <a href="#" class="footer__info-link">Москва,<br>Химки</a>
+                  </li>
+                  <li class="footer__info-item">
+                    <a href="#" class="footer__info-link">Мытищи,<br>Балашиха</a>
+                  </li>
+                  <li class="footer__info-item">
+                    <a href="#" class="footer__info-link">Красногорск</a>
+                  </li>
+                  <li class="footer__info-item">
+                    <a href="#" class="footer__info-link">Зеленоград, Дмитров</a>
+                  </li>
+                  <li class="footer__info-item">
+                    <a href="#" class="footer__info-link">Лобня, Чехов</a>
+                  </li>
+                  <li class="footer__info-item">
+                    <a href="#" class="footer__info-link">Подольск, Одиноцово</a>
+                  </li>
+                  <li class="footer__info-item">
+                    <a href="#" class="footer__info-link">Люберцы, Серпухов</a>
+                  </li>
+                  <li class="footer__info-item">
+                    <a href="#" class="footer__info-link">Ногинск, Обнинск</a>
+                  </li>
+                  <li class="footer__info-item">
+                    <a href="#" class="footer__info-link">Пушкино, Домодедово</a>
+                  </li>
+                  <li class="footer__info-item">
+                    <a href="#" class="footer__info-link">Бронницы, Щелково</a>
+                  </li>
+                  <li class="footer__info-item">
+                    <a href="#" class="footer__info-link">Бронницы, Щелково</a>
+                  </li>
+                  <li class="footer__info-item">
+                    <a href="#" class="footer__info-link">Ступино</a>
+                  </li>
+                  <li class="footer__info-item">
+                    <a href="#" class="footer__info-link">Орехово-Зуево</a>
+                  </li>
+                  <li class="footer__info-item">
+                    <a href="#" class="footer__info-link">И другие города Московской области</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- <div class="footer__inner-info-blok"></div> -->
+              <div class="footer__info-block">
+                <div class="footer__info-block-wrapper footer__info-block-right">
+                  <div class="footer__info-title">Товары</div>
                   <ul class="footer__info-list">
                     <li class="footer__info-item">
-                      <a href="#" class="footer__info-link">О компании</a>
+                      <a href="#" class="footer__info-link">Тахографы с блоком СКЗИ</a>
                     </li>
                     <li class="footer__info-item">
-                      <a href="#" class="footer__info-link">Контакты</a>
+                      <a href="#" class="footer__info-link">Тахографы ESTR</a>
                     </li>
                     <li class="footer__info-item">
-                      <a href="#" class="footer__info-link">Новости</a>
+                      <a href="#" class="footer__info-link">Глонасс трекеры</a>
                     </li>
                     <li class="footer__info-item">
-                      <a href="#" class="footer__info-link">ПП 2216</a>
+                      <a href="#" class="footer__info-link">Карта водителя СКЗИ</a>
+                    </li>
+                  </ul>
+                </div>
+              
+                <div class="footer__info-block-wrapper footer__info-block-right">
+                  <div class="footer__info-title">Услуги</div>
+                  <ul class="footer__info-list">
+                    <li class="footer__info-item">
+                      <a href="#" class="footer__info-link">Подключение к РНИС</a>
                     </li>
                     <li class="footer__info-item">
-                      <a href="#" class="footer__info-link">ПП 969</a>
+                      <a href="#" class="footer__info-link">Установка тахографа</a>
+                    </li>
+                    <li class="footer__info-item">
+                      <a href="#" class="footer__info-link">Активация тахографа</a>
+                    </li>
+                    <li class="footer__info-item">
+                      <a href="#" class="footer__info-link">Калибровка тахографа</a>
+                    </li>
+                    <li class="footer__info-item">
+                      <a href="#" class="footer__info-link">Ремонт и обслуживание 
+                        тахографов</a>
+                    </li>
+                    <li class="footer__info-item">
+                      <a href="#" class="footer__info-link">Установка системы глонасс</a>
+                    </li>
+                    <li class="footer__info-item">
+                      <a href="#" class="footer__info-link">Установка ДУТ</a>
+                    </li>
+                    <li class="footer__info-item">
+                      <a href="#" class="footer__info-link">
+                        Комплекс по замене блока СКЗИ</a>
+                    </li>
+                    <li class="footer__info-item">
+                      <a href="#" class="footer__info-link">Активация блока СКЗИ</a>
+                    </li>
+                    <li class="footer__info-item">
+                      <a href="#" class="footer__info-link">
+                        Помощь в оформлении пропусков для грузовиков на МКАД, ТТК и СК
+                      </a>
                     </li>
                   </ul>
                 </div>
               </div>
             </div>
+           
+            
+
+            <div class="footer__info-block footer__info-block-razdel">
+              <div class="footer__info-title">Разделы</div>
+              <ul class="footer__info-list">
+                <li class="footer__info-item">
+                  <a href="#" class="footer__info-link">О&nbspкомпании</a>
+                </li>
+                <li class="footer__info-item">
+                  <a href="#" class="footer__info-link">Контакты</a>
+                </li>
+                <li class="footer__info-item">
+                  <a href="#" class="footer__info-link">Новости</a>
+                </li>
+                <li class="footer__info-item">
+                  <a href="#" class="footer__info-link">ПП 2216</a>
+                </li>
+                <li class="footer__info-item">
+                  <a href="#" class="footer__info-link">ПП 969</a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
-    </footer>
+    </div>
+  </div>
+</footer> 
 
+<div class="modal">
+  <div class="modal__inner">
+      <div class="modal__inner-block">
+          <form  class="modal-form">
+              <div class="modal-form__title">
+                Есть вопросы? 
+              </div>
+              <div class="modal-form__subtitle">
+                Оставьте телефон, мы обязательно перезвоним Вам в течение 10 минут!
+              </div>
+              <input type="tel" class="modal-form__input" id="input-mask" placeholder="+7 (">
+              <div class="modal-form__line"></div>
+              <button class="modal-form__btn">Заказать звонок</button>
+              <div data-close class="modal__close">&times;</div>
+          </form>
+      </div>
+  </div>
+</div>
 
-
-
+<script src="https://unpkg.com/imask"></script>
   <script src="js/main.min.js"></script>
 </body>
 
