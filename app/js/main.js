@@ -101,6 +101,19 @@ $(".tachographs-slider__item-rating").rateYo({
     ratedFill: "#E15241",
     readOnly: true
   });
+  $(".catalog__item-rating").rateYo({
+    starWidth: "17px",
+    normalFill: "#A0A0A0",
+    ratedFill: "#E15241",
+    readOnly: true
+  });
+  $(".card__content-rating").rateYo({
+    starWidth: "17px",
+    normalFill: "#A0A0A0",
+    ratedFill: "#E15241",
+    readOnly: true
+  });
+
 
 
 $('.tachographs-slider__inner').slick({

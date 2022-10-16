@@ -1,0 +1,131 @@
+.page__block {
+    margin-top: -300px;
+    margin-bottom: 65px;
+}
+.page__inner {
+    display: flex;
+}
+.page__img {
+   
+    border-radius: 8px 8px 8px 8px;
+}
+.page__img img{
+    width: 600px;
+    border-radius: 8px 0px 0px 8px;
+}
+.page__content {
+    width: 60%;
+    padding: 51px 100px 58px 100px;
+    background: #fff;
+    box-shadow: 0px 20px 37px rgba(0, 0, 0, 0.07);
+    border-radius:  0 8px 8px 0px;
+}
+.page__conten-price {
+    margin-bottom: 17px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    align-items: center;
+    color: #53A6AA;
+}
+.page__content-title {
+    margin-bottom: 17px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+}
+
+.page__content-text {
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 193.9%;
+}
+
+.page__conten-btn {
+    margin-top: 83px;
+    display: block;
+    width: 211px;
+    height: 54px;
+    background: #E15241;
+    box-shadow: 0px 15px 19px rgba(0, 0, 0, 0.1);
+    border-radius: 58px;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    line-height: 54px;
+    text-transform: uppercase;
+    transition: all .3s ease-in;
+    transition: all .3s ease-in;
+}
+.page__conten-btn:hover{
+    background-color: #191D2D;
+    transition: all .3s ease-in;
+}
+
+
+.page-block__item {
+    width: 100%;
+    padding: 54px 80px 62px 80px;
+    margin-bottom: 25px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 37px rgba(0, 0, 0, 0.07);
+    border-radius: 8px;
+}
+.page-block__item-title {
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+}
+.page-block__item-text {
+    margin-bottom: 26px;
+    line-height: 168.9%;
+}
+.page-block__item-btn:hover {
+    background-color: #191D2D;
+    transition: all .3s ease-in;
+}
+
+
+.page-box{
+    margin-top: 84px;
+    padding-top: 41px;
+    padding-bottom: 86px;
+    background: #191D2D;
+}
+.container {
+}
+.page-box__inner {
+   padding: 57px 83px 89px 83px;
+   background-color: #FFFFFF;
+   box-shadow: 0px 9px 21px rgba(0, 0, 0, 0.03);
+    border-radius: 8px;
+}
+.page-box__title {
+    margin-bottom: 25px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+}
+.page-box__text {
+    margin-bottom: 50px;
+    line-height: 193.9%;
+}
+.page-box__text span{
+    color:#53A6AA;
+    font-weight: 700;
+}
+.page-box__info {
+    margin-bottom: 30px;
+    position: relative;
+    margin-left: 35px;
+}
+.page-box__info::before{
+    position: absolute;
+    content: '';
+    width: 30px;
+    height: 30px;
+    background: url('../images/icon/product-page-arrows.svg') no-repeat;
+    left: -35px;
+    top: 0px;
+}
