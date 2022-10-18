@@ -728,6 +728,9 @@
         padding-bottom: 0;
         background-color: #fff;
     }
+    .page-box__info{
+        margin-top: 20px;
+    }
     .page-box__text,
     .page-box__mobile{
         margin-bottom: 20px;
@@ -738,9 +741,15 @@
     .page-box__mobile,
     .product-page__mobile-one,
     .product-page__mobile-two,
-    .product-page__mobile-three{
+    .product-page__mobile-three,
+    .page-box__mobile-one,
+    .page-box__mobile-two,
+    .page-box__mobile-three,
+    .page-box__mobile-four,
+    .page-box__mobile-fife{
         color: #53A6AA;
         font-weight: 600;
+        display: block;
     }
     .page-box__mobile{
         display: block;
@@ -790,21 +799,31 @@
     .page-box__mobile,
     .product-page__mobile-one,
     .product-page__mobile-two,
-    .product-page__mobile-three{
+    .product-page__mobile-three,
+    .page-box__mobile-one,
+    .page-box__mobile-two,
+    .page-box__mobile-three,
+    .page-box__mobile-four,
+    .page-box__mobile-fife{
         width: 200px;
         position: relative;
     }
     .page-box__mobile::after,
     .product-page__mobile-one::after,
     .product-page__mobile-two::after,
-    .product-page__mobile-three::after{
+    .product-page__mobile-three::after,
+    .page-box__mobile-one::after,
+    .page-box__mobile-two::after,
+    .page-box__mobile-three::after,
+    .page-box__mobile-four::after,
+    .page-box__mobile-fife::after{
         position: absolute;
         content: '';
         width: 20px;
         height: 20px;
         background: url('../images/icon/page-arrows-hide.svg') no-repeat;
         right: 18px;
-        top: 11px;
+        top: 6px;
     }
     .product-page__mobile-one::after,
     .product-page__mobile-two::after,
@@ -815,7 +834,8 @@
     .page-box__info-mobile-four,
     .page-box__info-mobile-three,
     .page-box__info-mobile-two,
-    .page-box__info-mobile-one{
+    .page-box__info-mobile-one,
+    .page-box__info-mobile-fife{
         display: none;
         line-height: 193.9%;
     }
@@ -935,6 +955,59 @@
           background-size:100% 100%;
         }
       }
+      .catalog-heading__title{
+        margin-bottom: 15px;
+        font-size: 24px;
+        line-height: 33px;
+      }
+      .catalog-heading{
+        min-height: 320px;
+      }
+      .catalog{
+        padding-top: 45px;
+        padding-bottom: 70px;
+      }
+      .catalog__item{
+        width: 138px;
+        padding: 10px;
+      }
+      .catalog__item-img{
+        height: 60px;
+        width: 90px;
+        margin-bottom: 20px;
+      }
+      .catalog__item-price{
+        font-size: 14px;
+      }
+      .catalog__item-title{
+        font-size: 16px;
+        margin-bottom: 15px;
+        line-height: 20px;
+      }
+      .catalog.sensors .catalog__item-img {
+        height: 85px;
+    }
+    .catalog.demo .catalog__item-img {
+        width: 59px;
+        height: 63px;
+    }
+    .catalog.materials .catalog__item-img, .catalog.sensors .catalog__item-img {
+        height: 85px;
+    }
+    .breadcrumbs__list-item::after {
+        top: 9px;
+    }
+    .content-hidden.card{
+        background-color: #fff;
+    }
+    .page-box__mobile-one.arrows::after,
+    .page-box__mobile-two.arrows::after,
+    .page-box__mobile-three.arrows::after,
+    .page-box__mobile-four.arrows::after,
+    .page-box__mobile-fife.arrows::after,{
+        transform: rotate(180deg);
+        top: -6px;
+    }
     
 }
 

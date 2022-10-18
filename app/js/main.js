@@ -1,4 +1,4 @@
-window.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', () => {
 
 $('.reviews__slider').slick({
         slidesToShow: 3,
@@ -256,89 +256,85 @@ menu.classList.toggle('nav--active');
 
 
 
-const mobileBtnText = document.querySelectorAll('.page-box__mobile');
-const mobileText = document.querySelector('.page-box__info-mobile');
-const mobileTextfour = document.querySelector('.page-box__info-mobile-four');
-const mobileTextthree = document.querySelector('.page-box__info-mobile-three');
-const mobileTextttwo = document.querySelector('.page-box__info-mobile-two');
-const mobileTextone = document.querySelector('.page-box__info-mobile-one');
-
-  mobileBtnText.forEach(item =>{
-    item.addEventListener('click' ,()=>{
-      mobileText.classList.toggle('show');
-    })
-  })
-
-  mobileBtnText.forEach(item =>{
-    item.addEventListener('click' ,()=>{
-      mobileTextfour.classList.toggle('show');
-    })
-  })
-  mobileBtnText.forEach(item =>{
-    item.addEventListener('click' ,()=>{
-      mobileTextthree.classList.toggle('show');
-    })
-  })
-  mobileBtnText.forEach(item =>{
-    item.addEventListener('click' ,()=>{
-      mobileTextttwo.classList.toggle('show');
-    })
-  })
-  mobileBtnText.forEach(item =>{
-    item.addEventListener('click' ,()=>{
-      mobileTextone.classList.toggle('show');
-    })
-  })
 
 
-  // const productPageOneMobileBtn = document.querySelectorAll('.product-page__mobile');
-  const productpagemobileone = document.querySelector('.product-page__mobile-one');
-  const productpagemobiletwo = document.querySelector('.product-page__mobile-two');
-  const productpagemobilethree = document.querySelector('.product-page__mobile-three');
-  const productPageOne = document.querySelector('.product-page-mobile-one');
-  const productPageTwo = document.querySelector('.product-page-mobile-two');
-  const productPageThree = document.querySelector('.product-page-mobile-three');
-
-  productpagemobileone.addEventListener('click',()=>{
-    productPageOne.classList.toggle('show');
-  });
-  productpagemobiletwo.addEventListener('click',()=>{
-    productPageTwo.classList.toggle('show');
-  });
-  productpagemobilethree.addEventListener('click',()=>{
-    productPageThree.classList.toggle('show');
-  });
-
-  // productPageOneMobileBtn.forEach(item =>{
-  //   item.addEventListener('click' ,()=>{
-  //     productPageOne.classList.toggle('show');
-  //   });
-  // });
-
-  // productPageOneMobileBtn.forEach(item =>{
-  //   item.addEventListener('click' ,()=>{
-  //     productPageTwo.classList.toggle('show');
-  //   })
-  // })
-  // productPageOneMobileBtn.forEach(item =>{
-  //   item.addEventListener('click' ,()=>{
-  //     productPageThree.classList.toggle('show');
-  //   })
-  // })
+  const pageboxmobileone = document.querySelector('.page-box__mobile-one');
+  const pageboxinfomobileone = document.querySelector('.page-box__info-mobile-one');
+  const pageboxmobiletwo = document.querySelector('.page-box__mobile-two');
+  const pageboxinfomobiletwo = document.querySelector('.page-box__info-mobile-two');
+  const pageboxmobilethree = document.querySelector('.page-box__mobile-three');
+  const pageboxinfomobilethree = document.querySelector('.page-box__info-mobile-three');
+  const pageboxmobilefour = document.querySelector('.page-box__mobile-four');
+  const pageboxinfomobilefour = document.querySelector('.page-box__info-mobile-four');
+  const pageboxmobilefife = document.querySelector('.page-box__mobile-fife');
+  const pageboxinfomobilefife = document.querySelector('.page-box__info-mobile-fife');
 
 
-const buttonBtn = document.querySelector('.button-btn');
-const contentHide = document.querySelector('.content-hidden');
-const btnShow = document.querySelector('.content-hide_btn');
-
-    buttonBtn.addEventListener('click', function(){
-        contentHide.classList.toggle('card');
-        // buttonBtn.style.display = 'none';
-    })
-    btnShow.addEventListener('click', function(){
-        contentHide.classList.toggle('card');
-        // buttonBtn.style.display = 'block';
+    if(pageboxmobileone){
+      pageboxmobileone.addEventListener('click', function(){
+        pageboxmobileone.classList.toggle('arrows');
+        pageboxinfomobileone.classList.toggle('show');
+      });
+    }
+   if(pageboxmobiletwo){
+    pageboxmobiletwo.addEventListener('click', function(){
+      pageboxmobiletwo.classList.toggle('arrows');
+      pageboxinfomobiletwo.classList.toggle('show');
     });
+   }
+  
+   if(pageboxmobilethree){
+    pageboxmobilethree.addEventListener('click', function(){
+      pageboxmobilethree.classList.toggle('arrows');
+      pageboxinfomobilethree.classList.toggle('show');
+    });
+   }
+   
+   if(pageboxmobilefour){
+    pageboxmobilefour.addEventListener('click', function(){
+      pageboxmobilefour.classList.toggle('arrows');
+      pageboxinfomobilefour.classList.toggle('show');
+    });
+   }
+   
+   if(pageboxmobilefife){
+    pageboxmobilefife.addEventListener('click', function(){
+      pageboxmobilefife.classList.toggle('arrows');
+      pageboxinfomobilefife.classList.toggle('show');
+    });
+   }
+   
 
 
+
+    const buttonBtn = document.querySelector('.button-btn');
+    const contentHide = document.querySelector('.content-hidden');
+    const btnShow = document.querySelector('.content-hide_btn');
+
+      if(buttonBtn){
+        buttonBtn.addEventListener('click', function(){
+          // contentHide.classList.toggle('card');
+          buttonBtn.style.display = 'none';
+          contentHide.classList.add('show');
+      });
+      }
+      
+
+       if(btnShow){
+        btnShow.addEventListener('click', function(){
+          contentHide.classList.remove('show');
+          contentHide.classList.add('hide');
+          buttonBtn.style.display = 'block';
+      });
+       }
+      
+
+
+
+    // const productpagemobileone = document.querySelector('.product-page__mobile-one');
+    // const productPageOne = document.querySelector('.product-page-mobile-one');
+    // productpagemobileone.addEventListener('click',function(){
+    //   productPageOne.classList.toggle('show');
+    // });
+  
   });
